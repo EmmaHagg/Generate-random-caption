@@ -140,7 +140,7 @@ button{
 .symboler{
     display: flex;
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 a {
     text-decoration: none;
@@ -168,7 +168,7 @@ a {
     color: #bbb;
 }
 
-.c-link:not(:last-of-type) {
+.c-link:not(:last-of-type) { /* Mellanrummet mellan symbolerna*/
     margin-right: 15px;
 }
 
@@ -213,6 +213,6 @@ a {
 .pens-link {
     margin-bottom: 0;
     background: white;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .1);
     border: none;
 }
