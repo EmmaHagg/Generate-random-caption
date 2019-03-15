@@ -1,5 +1,5 @@
 function captions() {
-  /* Skapar en ny variabel s1, kollar ID:t slct1 och sparar ned det valda valuet från det ID:t. */
+  /* Hämtar hem värder från det stället som har ID slct1 och sparar ned det i s1. */
   let s1 = document.getElementById("slct1").value;
 
   /* Arrayer skapade för de olika kategorierna*/
